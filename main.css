@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'marker';
+    src: url(\SmoothMarker-45d6.ttf);
+}
+h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.score-wrapper {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.col {
+    text-align: center;
+}
+
+body {
+    background-image: url(whiteboard.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: 'marker';
+    background-size: 650px;
+}
+
+.question {
+    font-size: 40px;
+    padding-bottom: 15px;
+    margin-top: -10px;
+}
+
+.timer {
+    margin-bottom: -20px;
+    font-size: 35px;
+    color: red;
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+    0% {color: red;}
+    50% {color: black;}    
+}
+
+.timer-wrapper {
+    padding-left: 520px;
+    margin-top: -20px;
+}
+
+.high-score {
+    color: red;
+}
+
+input[type=number] {
+    width: 30%;
+    border: 2px red solid;
+    border-radius: 25px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'marker';
+}
+
+button.reset {
+    background-color: #3dd8ff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.button-wrap {
+    text-align: center;
+    padding-top: 10px;
+}
+.score {
+    padding-bottom: 10px;
+}
